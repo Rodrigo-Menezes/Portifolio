@@ -1,5 +1,6 @@
 "use client"
 import SideBar from "./SideBar";
+import Servicos from "./servicos";
 import Skills from "./skills";
 import Sobre from "./sobre"
 import React, { useRef, useEffect } from 'react';
@@ -43,7 +44,7 @@ export default function Conteudo() {
 
   
   return (
-    <div className="flex">
+    <div className="flex flex-col md:flex-row">
       <SideBar />
       <div className="flex flex-col">
       <div ref={(ref) => (componentRefs.current[0] = ref)}>
@@ -51,6 +52,9 @@ export default function Conteudo() {
       </div>
       <div ref={(ref) => (componentRefs.current[1] = ref)}>
         {<Skills />}
+      </div>
+      <div ref={(ref) => (componentRefs.current[2] = ref)}>
+        {<Servicos />}
       </div>
         
       </div>

@@ -17,16 +17,16 @@ export default function Sobre() {
     </svg>
 
   return (
-    <div id="sobre" className="w-screen h-screen pl-96 pt-20 bg-slate-900">
-      <h2 className="text-azul text-2xl py-2">Sobre</h2>
-      <h3 className="text-sm text-prata drop-shadow">
+    <div id="sobre" className=" w-screen h-screen md:pl-96 mt-10 md:mt-20 bg-slate-900 ">
+      <h2 className="text-azul text-2xl py-2 text-center md:text-start">Sobre</h2>
+      <h3 className="text-xs md:text-sm text-zinc-400 drop-shadow text-center md:text-start">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad deserunt nostrum, ducimus unde sint voluptatem optio voluptatum porro labore aliquam minima aut rerum amet, necessitatibus provident ipsum minus possimus harum?
       </h3>
-      <div className="flex gap-5 mt-6">
+      <div className="flex flex-wrap md:flex-row justify-center md:justify-start items-center gap-1 md:gap-5 mt-6">
         <Card
           icone={svg}
           text="Anos de experiência"
-          number={2}
+          number={20}
         />
         <Card
           icone={svg2}
@@ -39,25 +39,25 @@ export default function Sobre() {
           number={2}
         />
       </div>
-      <div className="flex items-end gap-2 mt-16">
+      <div className="flex flex-col justify-center items-center  md:justify-start md:flex-row md:items-end gap-2 mt-10">
         <h2 className="text-azul text-2xl">Qualificação</h2>
-        <p className="text-prata px-5">minha jornada pessoal</p>
+        <p className="text-prata md:pl-5">minha jornada pessoal</p>
       </div>
-      <div className="flex text-prata gap-44 my-3 border-b border-prata">
-        <div>
+      <div className="flex text-prata px-5 md:px-0 gap-24 md:gap-44 my-3 border-b border-prata">
+        <div className="flex gap-2 items-center justify-center">
           <svg width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M24.4505 6.69535L23.257 6.03895L12.5158 0.071608H12.3845C12.3114 0.0406718 12.2355 0.0166967 12.1578 0H11.931H11.7162C11.6347 0.0167076 11.5548 0.0406723 11.4775 0.071608H11.3462L0.605026 6.03895C0.421354 6.14304 0.26858 6.29399 0.162291 6.4764C0.0560013 6.6588 0 6.86614 0 7.07726C0 7.28838 0.0560013 7.49572 0.162291 7.67813C0.26858 7.86054 0.421354 8.01149 0.605026 8.11558L3.57676 9.76256V15.4196C3.57676 16.3692 3.95398 17.2799 4.62544 17.9513C5.29689 18.6228 6.20758 19 7.15716 19H16.7049C17.6545 19 18.5652 18.6228 19.2366 17.9513C19.9081 17.2799 20.2853 16.3692 20.2853 15.4196V9.76256L22.6722 8.42588V11.8392C22.6722 12.1557 22.798 12.4593 23.0218 12.6831C23.2456 12.9069 23.5492 13.0327 23.8657 13.0327C24.1822 13.0327 24.4858 12.9069 24.7096 12.6831C24.9334 12.4593 25.0592 12.1557 25.0592 11.8392V7.73367C25.0588 7.52219 25.0023 7.31461 24.8953 7.13217C24.7884 6.94972 24.6349 6.79898 24.4505 6.69535ZM17.8984 15.4196C17.8984 15.7361 17.7726 16.0397 17.5488 16.2635C17.325 16.4873 17.0214 16.6131 16.7049 16.6131H7.15716C6.84063 16.6131 6.53707 16.4873 6.31325 16.2635C6.08944 16.0397 5.96369 15.7361 5.96369 15.4196V11.0873L11.3462 14.071L11.5253 14.1426H11.6327C11.7317 14.1551 11.832 14.1551 11.931 14.1426C12.0301 14.1551 12.1303 14.1551 12.2294 14.1426H12.3368C12.4002 14.1292 12.4607 14.105 12.5158 14.071L17.8984 11.0873V15.4196ZM11.931 11.6721L3.64837 7.06533L11.931 2.45854L20.2137 7.06533L11.931 11.6721Z" fill="#616161" />
           </svg>
           <h2>Educação</h2>
         </div>
-        <div>
+        <div className="flex gap-2 items-center justify-center">
           <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M17 4H14V3C14 2.20435 13.6839 1.44129 13.1213 0.87868C12.5587 0.316071 11.7956 0 11 0H9C8.20435 0 7.44129 0.316071 6.87868 0.87868C6.31607 1.44129 6 2.20435 6 3V4H3C2.20435 4 1.44129 4.31607 0.87868 4.87868C0.316071 5.44129 0 6.20435 0 7V16C0 16.7956 0.316071 17.5587 0.87868 18.1213C1.44129 18.6839 2.20435 19 3 19H17C17.7956 19 18.5587 18.6839 19.1213 18.1213C19.6839 17.5587 20 16.7956 20 16V7C20 6.20435 19.6839 5.44129 19.1213 4.87868C18.5587 4.31607 17.7956 4 17 4ZM8 3C8 2.73478 8.10536 2.48043 8.29289 2.29289C8.48043 2.10536 8.73478 2 9 2H11C11.2652 2 11.5196 2.10536 11.7071 2.29289C11.8946 2.48043 12 2.73478 12 3V4H8V3ZM18 16C18 16.2652 17.8946 16.5196 17.7071 16.7071C17.5196 16.8946 17.2652 17 17 17H3C2.73478 17 2.48043 16.8946 2.29289 16.7071C2.10536 16.5196 2 16.2652 2 16V10.95H5V12C5 12.2652 5.10536 12.5196 5.29289 12.7071C5.48043 12.8946 5.73478 13 6 13C6.26522 13 6.51957 12.8946 6.70711 12.7071C6.89464 12.5196 7 12.2652 7 12V10.95H13V12C13 12.2652 13.1054 12.5196 13.2929 12.7071C13.4804 12.8946 13.7348 13 14 13C14.2652 13 14.5196 12.8946 14.7071 12.7071C14.8946 12.5196 15 12.2652 15 12V10.95H18V16ZM18 9H2V7C2 6.73478 2.10536 6.48043 2.29289 6.29289C2.48043 6.10536 2.73478 6 3 6H17C17.2652 6 17.5196 6.10536 17.7071 6.29289C17.8946 6.48043 18 6.73478 18 7V9Z" fill="#616161" />
           </svg>
           <h2>Trabalho</h2>
         </div>
       </div>
-      <div className="flex gap-5 mt-6">
+      <div className="flex justify-center md:justify-start flex-wrap gap-1 mt-6">
           <Cardqualifica
           text1="eu"
           text="eutbm"

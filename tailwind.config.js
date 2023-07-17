@@ -9,6 +9,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         "bg": "url('/bg.png')",
+        "bgux":"url('/uiux.jpg')",
+        "bgfront":"url('/front.jpg')"
       },
       colors:{
         azul:'#5671A6',
@@ -16,7 +18,17 @@ module.exports = {
       },
       animation: {
         'pulse-fast': 'pulse 1s linear infinite',
-      }
+      },
+      scale: {
+        '200': '2',
+      },
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
+      },
+      dropShadow:{
+        dark1:'1px 1px 1px black',
+        dark2:'1px 1px 1px #1A1A1A',
+      },
     },
   },
   plugins: [],

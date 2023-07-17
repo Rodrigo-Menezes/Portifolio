@@ -6,15 +6,15 @@ import foto from '../../../public/foto.png'
 
 export default function SideBar() {
   return (
-    <div className="top-10 fixed h-screen bg-slate-900 w-80 border-r border-prata pb-10">
+    <div className="md:top-20 md:fixed md:h-screen bg-slate-900 pt-16 md:pt-0 md:w-80 md:border-r border-prata pb-10">
       <div className="flex h-full flex-col justify-center items-center text-center">
         <Image src={foto} alt='foto de perfil' width={100} />
         <h1 className="text-2xl font-bold mt-10 bg-gradient-to-r text-transparent from-azul to-prata bg-clip-text">Rodrigo Menezes</h1>
         <h2 className="text-azul font-bold mb-10 ">Desenvolvedor front-end</h2>
-        <p className="text-base text-prata/75 px-5 text-center ">
+        <p className="text-base text-zinc-400 px-5 text-center ">
           "Desenvolva a web do futuro com Next.js - Front-end mais rápido, poderoso e escalável!"
         </p>
-        <div className='flex gap-5 my-10'>
+        <div className='flex gap-5 my-5'>
           <Link href="">
             <FontAwesomeIcon icon={faInstagram} className="h-7 text-azul hover:text-prata transition-all duration-300" />
           </Link>
