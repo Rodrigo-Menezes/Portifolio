@@ -1,5 +1,5 @@
-"use client"
-import React, { useEffect, useState } from 'react';
+"use client";
+import Link from 'next/link';
 import RodrigoLogo from '../nome/RodrigoLogo';
 
 export default function Nav() {

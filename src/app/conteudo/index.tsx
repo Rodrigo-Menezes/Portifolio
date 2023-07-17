@@ -42,21 +42,21 @@ export default function Conteudo() {
     };
   }, []);
 
-  
+
   return (
     <div className="flex flex-col md:flex-row">
       <SideBar />
       <div className="flex flex-col">
-      <div ref={(ref) => (componentRefs.current[0] = ref)}>
-        {<Sobre />}
-      </div>
-      <div ref={(ref) => (componentRefs.current[1] = ref)}>
-        {<Skills />}
-      </div>
-      <div ref={(ref) => (componentRefs.current[2] = ref)}>
-        {<Servicos />}
-      </div>
-        
+        <div id="sobre" ref={(ref) => (componentRefs.current[0] = ref)}>
+          {<Sobre />}
+        </div>
+        <div id="skills" ref={(ref) => (componentRefs.current[1] = ref)}>
+          {<Skills />}
+        </div>
+        <div id="servicos" ref={(ref) => (componentRefs.current[2] = ref)}>
+          {<Servicos />}
+        </div>
+
       </div>
     </div>
   )

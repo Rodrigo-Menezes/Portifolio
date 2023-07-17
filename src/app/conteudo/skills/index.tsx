@@ -4,9 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function Sobre() {
 
   return (
-    <div id="skills" className=" w-screen h-screen md:pl-80 pt-10 md:pt-20 bg-slate-900 flex flex-col items-center">
+    <div className=" w-screen h-screen md:pl-80 pt-10 md:pt-20 bg-slate-900 flex flex-col items-center">
       <div className="flex items-center flex-col text-zinc-400">
+      
         <h2 className="text-azul text-2xl pt-5">Skills</h2>
+        <span className='bg-gradient-to-r from-azul to-prata h-px w-44'></span>
         <h2 className=''>Tecnologias que utilizo</h2>
         <p className="pt-16">Desenvolvedor Frontend</p>
         <p className='text-sm'>Mais de 2 anos</p>
