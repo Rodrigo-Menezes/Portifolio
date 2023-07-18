@@ -21,17 +21,17 @@ export default function Sobre() {
       <h2 className="text-azul text-2xl py-2 text-center md:text-start">Sobre</h2>
       <div className="flex flex-wrap md:flex-row justify-center md:justify-start items-center gap-1 md:gap-5 mt-6">
         <Card
-          icone={svg}
+         
           text="Anos de experiência"
           number={2}
         />
         <Card
-          icone={svg2}
+          
           text="Projetos desenvolvidos"
           number={2}
         />
         <Card
-          icone={svg3}
+          
           text="empresas trabalhadas"
           number={2}
         />
