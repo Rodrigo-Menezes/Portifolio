@@ -5,8 +5,8 @@ interface Conteudo {
 }
 export default function Cardqualifica(ConteudoOBJ: Conteudo) {
   return (
-    <div className="group md:w-40 h-28 bg-prata bg-opacity-5 hover:bg-opacity-20 transition ease-in-out duration-1000 text-prata rounded-2xl flex flex-col py-3 px-3">
-      <div className="group-hover:text-5xl  group-transition ease-in-out duration-1000">
+    <div className="group w-44 gap-5  bg-prata bg-opacity-5 hover:bg-opacity-20 transition ease-in-out duration-1000 text-prata rounded-2xl flex flex-col py-3 px-3">
+      <div className="group-hover:text-xl  group-transition ease-in-out duration-1000">
         {ConteudoOBJ.text1}
       </div>
       <div className="flex flex-col text-sm relative justify-end h-full">

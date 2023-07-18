@@ -17,10 +17,10 @@ export default function SideBar() {
         </p>
         <div className='flex gap-5 my-5'>
           <Link href="">
-            <FontAwesomeIcon icon={faInstagram} className="h-7 text-azul hover:text-prata transition-all duration-300" />
+            <FontAwesomeIcon icon={faInstagram} className="h-7 text-azul hover:text-prata hover:scale-125 transition-all duration-300" />
           </Link>
           <Link href="">
-            <FontAwesomeIcon icon={faGithub} className="h-7 text-azul hover:text-prata transition-all duration-300" />
+            <FontAwesomeIcon icon={faGithub} className="h-7 text-azul hover:text-prata hover:scale-125 transition-all duration-300" />
           </Link>
         </div>
 

@@ -8,15 +8,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "bg": "url('/bg.png')",
+         
         "bgux":"url('/uiux.jpg')",
         "bgfront":"url('/front.jpg')"
       },
       colors:{
         azul:'#5671A6',
         prata:' #B2CAD8',
-        azulescuro:'#000B49',
-        azulclaro:'#0068B5'
       },
       animation: {
         'pulse-fast': 'pulse 1s linear infinite',

@@ -17,16 +17,13 @@ export default function Sobre() {
     </svg>
 
   return (
-    <div  className=" w-screen md:h-screen md:pl-96 pt-10 md:pt-20 bg-slate-900">
+    <div className=" w-screen md:h-full md:pl-96 pt-10 md:pt-20 bg-slate-900">
       <h2 className="text-azul text-2xl py-2 text-center md:text-start">Sobre</h2>
-      <h3 className="text-xs md:text-sm text-zinc-400 drop-shadow text-center md:text-start">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad deserunt nostrum, ducimus unde sint voluptatem optio voluptatum porro labore aliquam minima aut rerum amet, necessitatibus provident ipsum minus possimus harum?
-      </h3>
       <div className="flex flex-wrap md:flex-row justify-center md:justify-start items-center gap-1 md:gap-5 mt-6">
         <Card
           icone={svg}
           text="Anos de experiência"
-          number={20}
+          number={2}
         />
         <Card
           icone={svg2}
@@ -59,8 +56,8 @@ export default function Sobre() {
       </div>
       <div className="flex justify-center md:justify-start flex-wrap gap-1 mt-6">
         <Cardqualifica
-          text1="eu"
-          text="eutbm"
+          text1="Baxarelado em Sistemas de Informação"
+          text="Faculdade São Lourenço"
           data="02/02/2014"
         />
         <Cardqualifica
