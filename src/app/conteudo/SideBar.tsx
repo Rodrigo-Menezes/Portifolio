@@ -13,7 +13,7 @@ export default function SideBar() {
         <RodrigoLogo/>
         <h2 className="text-azul font-bold mb-10 ">Desenvolvedor front-end</h2>
         <p className="text-base text-zinc-400 px-5 text-center ">
-          "Desenvolva a web do futuro com Next.js - Front-end mais rápido, poderoso e escalável!"
+          Desenvolva a web do futuro com Next.js - Front-end mais rápido, poderoso e escalável!
         </p>
         <div className='flex gap-5 my-5'>
           <Link href="">
