@@ -4,10 +4,9 @@ import Portifolio from "./portifolio/inde";
 import Servicos from "./servicos";
 import Skills from "./skills";
 import Sobre from "./sobre"
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect } from "react";
 
 export default function Conteudo() {
-
   const componentRefs = useRef<(HTMLElement | null)[]>([]);
 
   useEffect(() => {
@@ -30,8 +29,11 @@ export default function Conteudo() {
         );
 
         if (visibleComponents.length > 1) {
-          const prevComponent = visibleComponents[visibleComponents.length - 2];
-          prevComponent.scrollIntoView({ behavior: "smooth" });
+          const prevComponent =
+            visibleComponents[visibleComponents.length - 2];
+          if (prevComponent) {
+            prevComponent.scrollIntoView({ behavior: "smooth" });
+          }
         }
       }
     };
