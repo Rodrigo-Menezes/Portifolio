@@ -33,7 +33,7 @@ export default function RodrigoLogo() {
   }, [currentWordIndex, words.length]);
   return (
     <div className='flex justify-center items-center'>
-    <p className="font-bold md:text-2xl bg-gradient-to-r text-transparent from-azul to-prata bg-clip-text">{text}</p>
+    <p className="font-bold text-xl md:text-2xl bg-gradient-to-r text-transparent from-azul to-prata bg-clip-text">{text}</p>
     <p className="text-2xl animate-pulse bg-gradient-to-r text-transparent from-azul to-prata bg-clip-text">|</p>
     </div>
   )
