@@ -1,13 +1,13 @@
 "use client";
-import Link from 'next/link';
-import RodrigoLogo from '../nome/RodrigoLogo';
+import rodrigo from '../../../public/rodrigo.png';
+import Image from 'next/image';
 
 export default function Nav() {
 
   return (
     <div className="bg-slate-900 z-20 fixed w-screen hidden md:flex justify-between items-center border-b border-prata h-20">
-      <div className='flex items-center'>
-        <RodrigoLogo />
+      <div className='flex items-center pl-10 drop-shadow-dark3'>
+        <Image src={rodrigo} alt='logo rodrigo menezes 'width={85} />
       </div>
       <div className="flex justify-center items-center gap-12 text-prata">
         <p className="relative group mx-5">

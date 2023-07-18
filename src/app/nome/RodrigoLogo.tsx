@@ -32,9 +32,9 @@ export default function RodrigoLogo() {
     return () => clearTimeout(timeout);
   }, [currentWordIndex, words.length]);
   return (
-    <div className='pl-6 absolute flex md:fixed justify-center items-center text-prata'>
-    <p className="font-bold md:text-2xl text-prata">{text}</p>
-    <p className="text-2xl animate-pulse">|</p>
+    <div className='flex justify-center items-center'>
+    <p className="font-bold md:text-2xl bg-gradient-to-r text-transparent from-azul to-prata bg-clip-text">{text}</p>
+    <p className="text-2xl animate-pulse bg-gradient-to-r text-transparent from-azul to-prata bg-clip-text">|</p>
     </div>
   )
 }

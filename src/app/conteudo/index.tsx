@@ -1,5 +1,6 @@
 "use client"
 import SideBar from "./SideBar";
+import Portifolio from "./portifolio/inde";
 import Servicos from "./servicos";
 import Skills from "./skills";
 import Sobre from "./sobre"
@@ -55,6 +56,9 @@ export default function Conteudo() {
         </div>
         <div id="servicos" ref={(ref) => (componentRefs.current[2] = ref)}>
           {<Servicos />}
+        </div>
+        <div id="servicos" ref={(ref) => (componentRefs.current[3] = ref)}>
+          {<Portifolio />}
         </div>
 
       </div>

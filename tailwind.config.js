@@ -14,7 +14,9 @@ module.exports = {
       },
       colors:{
         azul:'#5671A6',
-        prata:' #B2CAD8'
+        prata:' #B2CAD8',
+        azulescuro:'#000B49',
+        azulclaro:'#0068B5'
       },
       animation: {
         'pulse-fast': 'pulse 1s linear infinite',
@@ -28,6 +30,7 @@ module.exports = {
       dropShadow:{
         dark1:'1px 1px 1px black',
         dark2:'1px 1px 1px #1A1A1A',
+        dark3:'1px 1px 0.5px #B2CAD8'
       },
     },
   },

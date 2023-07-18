@@ -17,7 +17,7 @@ export default function Sobre() {
     </svg>
 
   return (
-    <div  className=" w-screen h-screen md:pl-96 pt-10 md:pt-20 bg-slate-900 ">
+    <div  className=" w-screen md:h-screen md:pl-96 pt-10 md:pt-20 bg-slate-900">
       <h2 className="text-azul text-2xl py-2 text-center md:text-start">Sobre</h2>
       <h3 className="text-xs md:text-sm text-zinc-400 drop-shadow text-center md:text-start">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad deserunt nostrum, ducimus unde sint voluptatem optio voluptatum porro labore aliquam minima aut rerum amet, necessitatibus provident ipsum minus possimus harum?

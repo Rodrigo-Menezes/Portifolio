@@ -3,13 +3,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Image from 'next/image'
 import Link from 'next/link'
 import foto from '../../../public/foto.png'
+import RodrigoLogo from '../nome/RodrigoLogo'
 
 export default function SideBar() {
   return (
     <div className="md:top-20 md:fixed md:h-screen bg-slate-900 pt-16 md:pt-0 md:w-80 md:border-r border-prata pb-10">
       <div className="flex h-full flex-col justify-center items-center text-center">
         <Image src={foto} alt='foto de perfil' width={100} />
-        <h1 className="text-2xl font-bold mt-10 bg-gradient-to-r text-transparent from-azul to-prata bg-clip-text">Rodrigo Menezes</h1>
+        <RodrigoLogo/>
         <h2 className="text-azul font-bold mb-10 ">Desenvolvedor front-end</h2>
         <p className="text-base text-zinc-400 px-5 text-center ">
           "Desenvolva a web do futuro com Next.js - Front-end mais rápido, poderoso e escalável!"
