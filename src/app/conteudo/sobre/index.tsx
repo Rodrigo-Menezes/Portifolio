@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Card from "./Card";
 import Cardqualifica from "./Cardqualifica";
-import { faBriefcase, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcase, faBuilding, faFireFlameCurved, faGraduationCap, faListCheck } from "@fortawesome/free-solid-svg-icons";
 
 export default function Sobre() {
   return (
@@ -9,15 +9,21 @@ export default function Sobre() {
       <h2 className="text-azul text-2xl py-2 text-center md:text-start">Sobre</h2>
       <div className="flex flex-wrap md:flex-row justify-center md:justify-start items-center gap-1 md:gap-5 mt-6">
         <Card
+          icon={faFireFlameCurved}
+          iconColor="prata"
           text="Anos de experiência"
           number={2}
         />
         <Card
+          icon={faListCheck}
+          iconColor="azul"
           text="Projetos desenvolvidos"
           number={2}
         />
-        <Card
-          text="empresas trabalhadas"
+         <Card
+          icon={faBuilding}
+          iconColor="prata"
+          text="Empresas trabalhadas"
           number={2}
         />
       </div>
