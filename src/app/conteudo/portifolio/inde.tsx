@@ -11,8 +11,8 @@ export default function Portifolio() {
         <Carrossel/>
       </div>
       <div className="bg-gray-950 h-full">
-        <div className="bg-white  bg-opacity-20 pl-5 md:pl-44 h-full pt-5 space-y-5 text-white w-screen border-t border-prata">
-          <h2 className="text-2xl">Você tem um novo projeto?</h2>
+        <div className="bg-white bg-opacity-5 pl-5 md:pl-44 h-full pt-5 space-y-5 text-white w-screen border-t border-prata px-5">
+          <h2 className="text-lg md:text-2xl">Você tem um novo projeto?</h2>
           <p>Contacte-me agora e obtenha um preço especial para o seu projeto</p>
         </div>
       </div>
