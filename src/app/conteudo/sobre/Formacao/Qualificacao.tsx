@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBriefcase, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import Cardqualifica from "../Cardqualifica";
 
 export default function Qualificacao() {

@@ -31,7 +31,10 @@ module.exports = {
       dropShadow:{
         dark1:'1px 1px 1px black',
         dark2:'1px 1px 1px #1A1A1A',
-        dark3:'1px 1px 0.5px #B2CAD8'
+        dark3:'1px 1px 0.5px #B2CAD8',
+      },
+      boxShadow: {
+        'custom': '5px 5px rgba(0, 108, 185, 0.4), 10px 10px rgba(0, 108, 185, 0.3), 15px 15px rgba(0, 108, 185, 0.2), 20px 20px rgba(0, 108, 185, 0.1), 25px 25px rgba(0, 108, 185, 0.05)',
       },
     },
   },
