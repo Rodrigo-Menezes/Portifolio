@@ -3,7 +3,7 @@ import Carrossel from "./Carrossel"
 export default function Portifolio() {
 
   return (
-    <div id='portifolio' className=" w-screen h-screen md:pl-80 pt-10 md:pt-20 bg-gray-950 flex flex-col items-center">
+    <div id='portifolio' className=" w-screen h-screen md:pl-80 pt-10 md:pt-24 bg-gray-950 flex flex-col items-center">
       <div className="gap-5 flex flex-col justify-center items-center">
         <h2 className="text-azul text-2xl pb-5">Portifólio</h2>
       </div>
