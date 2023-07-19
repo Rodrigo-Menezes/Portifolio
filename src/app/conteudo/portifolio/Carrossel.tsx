@@ -13,7 +13,7 @@ export default function Carrossel(): JSX.Element {
   };
 
   return (
-    <Slider  {...settings} className="w-72 md:w-[900px] h-80 ">
+    <Slider  {...settings} className="w-72 md:w-[900px] h-80 bg-gray-950">
       <div className="">
         <div className="md:grid md:grid-cols-2 rounded-2xl h-80 w-72 md:w-[900px] bg-white bg-opacity-5">
           <div></div>

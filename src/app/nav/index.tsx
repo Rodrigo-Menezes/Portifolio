@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function Nav() {
 
   return (
-    <div className="bg-slate-900 z-20 fixed  w-screen hidden md:flex justify-between items-center border-b border-prata h-20">
+    <div className="bg-gray-950 z-20 fixed  w-screen hidden md:flex justify-between items-center border-b border-prata h-20">
       <div className='flex items-center pl-10 drop-shadow-dark3 '>
         <Image src={rodrigo} alt='logo rodrigo menezes 'width={85} />
       </div>

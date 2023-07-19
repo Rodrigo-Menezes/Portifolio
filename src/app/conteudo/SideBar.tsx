@@ -7,7 +7,7 @@ import RodrigoLogo from '../nome/RodrigoLogo'
 
 export default function SideBar() {
   return (
-    <div className="md:top-20 md:fixed md:h-screen bg-slate-900 pt-16 md:pt-0 md:w-80 md:border-r border-prata pb-10">
+    <div className="md:top-20 md:fixed md:h-screen bg-gray-950 pt-16 md:pt-0 md:w-80 md:border-r border-prata pb-10">
       <div className="flex h-full flex-col justify-center items-center text-center">
         <Image src={foto} alt='foto de perfil' width={100} />
         <RodrigoLogo/>

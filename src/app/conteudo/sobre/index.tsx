@@ -17,7 +17,7 @@ export default function Sobre() {
     </svg>
 
   return (
-    <div className=" w-screen md:h-full md:pl-96 pt-10 md:pt-20 bg-slate-900">
+    <div className=" w-screen md:h-full md:pl-96 pt-10 md:pt-20 bg-gray-950">
       <h2 className="text-azul text-2xl py-2 text-center md:text-start">Sobre</h2>
       <div className="flex flex-wrap md:flex-row justify-center md:justify-start items-center gap-1 md:gap-5 mt-6">
         <Card

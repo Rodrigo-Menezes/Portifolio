@@ -13,13 +13,13 @@ export default function SideBarM() {
       <svg
         onClick={() => setShowSidebar(!showSidebar)}
         className="right-10 top-6 z-30 flex cursor-pointer items-center"
-        fill="#B2CAD8"
+        fill="#ffffff"
         viewBox="0 0 100 80"
         width="30"
         height="30"
       >
         <rect width="100" height="10"></rect>
-        <rect y="30" width="70" height="10" fill='#5671A6'></rect>
+        <rect y="30" width="70" height="10" fill='#006CB9'></rect>
         <rect y="60" width="40" height="10"></rect>
       </svg>
       <div
