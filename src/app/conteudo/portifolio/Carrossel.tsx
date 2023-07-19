@@ -13,50 +13,27 @@ export default function Carrossel(): JSX.Element {
   };
 
   return (
-    <Slider  {...settings} className="w-[900px] h-80 ">
+    <Slider  {...settings} className="w-72 md:w-[900px] h-80 ">
       <div className="">
-        <div className="grid grid-cols-2 rounded-2xl h-80 w-[900px] bg-white bg-opacity-5">
+        <div className="md:grid md:grid-cols-2 rounded-2xl h-80 w-72 md:w-[900px] bg-white bg-opacity-5">
           <div></div>
-          <div className="flex flex-col p-5 text-white gap-10">
+          <div className="flex flex-col p-5 text-white gap-2 md:gap-10">
             <h2 className="">Site</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates a modi ipsum beatae obcaecati ullam, distinctio sapiente nemo quasi. Alias tempore cumque eum nostrum eius, quo nemo explicabo deleniti odit.</p>
+            <p className="text-xs md:text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates a modi ipsum beatae obcaecati ullam, distinctio sapiente nemo quasi. Alias tempore cumque eum nostrum eius, quo nemo explicabo deleniti odit.</p>
             <a href='' className="relative group">
-          <button className='rounded-3xl text-white py-2 px-5 bg-azul hover:bg-gradient-to-r from-azul to-prata hover:px-12 clip  transition-all duration-500 hover:text-sky-950'>
-            Visitar
-          </button>
-        </a>
+              <button className='rounded-3xl text-white py-1 md:py-2 px-2 text-sm md:text-base md:px-5 bg-azul hover:bg-gradient-to-r from-azul to-prata hover:px-12 clip  transition-all duration-500 hover:text-sky-950'>
+                Visitar
+              </button>
+            </a>
           </div>
         </div>
       </div>
       <div>
-        <div className=" rounded-2xl h-80 w-[500px] bg-white bg opacity-10">
+        <div className=" rounded-2xl h-80 md:w-[500px] bg-white bg opacity-10">
 
         </div>
-      </div><div>
-        <div className=" rounded-2xl h-80 w-[500px] bg-white bg opacity-10">
-
         </div>
-      </div><div>
-        <div className=" rounded-2xl h-80 w-[500px] bg-white bg opacity-10">
-
-        </div>
-      </div><div>
-        <div className=" rounded-2xl h-80 w-[500px] bg-white bg opacity-10">
-
-        </div>
-      </div><div>
-        <div className=" rounded-2xl h-80 w-[500px] bg-white bg opacity-10">
-
-        </div>
-      </div><div>
-        <div className=" rounded-2xl h-80 w-[500px] bg-white bg opacity-10">
-
-        </div>
-      </div><div>
-        <div className=" rounded-2xl h-80 w-[500px] bg-white bg opacity-10">
-
-        </div>
-      </div>
+      
     </Slider>
   );
 }
