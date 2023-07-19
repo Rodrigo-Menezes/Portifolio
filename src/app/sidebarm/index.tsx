@@ -1,12 +1,15 @@
 'use client'
-import { useEffect, useState } from 'react'
+import { faGithub, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Link from 'next/link';
+import { useState } from 'react'
 
 export default function SideBarM() {
 
   const [showSidebar, setShowSidebar] = useState(false);
 
   return (
-    <div className='flex justify-end  md:hidden absolute right-4'>
+    <div className='fixed z-50 flex justify-end  md:hidden right-4'>
       <svg
         onClick={() => setShowSidebar(!showSidebar)}
         className="right-10 top-6 z-30 flex cursor-pointer items-center"
@@ -36,32 +39,36 @@ export default function SideBarM() {
           <p>Sobre</p>
         </a>
         <a
-          href="#sobre"
+          href="#skills"
           className="mt-5 flex cursor-pointer items-center space-x-5 p-2 pl-5 text-base font-bold shadow-lg duration-300 ease-in-out hover:text-zinc-400"
           onClick={() => setShowSidebar(!showSidebar)}
         >
           <p>Skills</p>
         </a>
         <a
-          href="#sobre"
+          href="#servicos"
           className="mt-5 flex cursor-pointer items-center space-x-5 p-2 pl-5 text-base font-bold shadow-lg duration-300 ease-in-out hover:text-zinc-400"
           onClick={() => setShowSidebar(!showSidebar)}
         >
           <p>Serviços</p>
         </a>
         <a
-          href="#sobre"
+          href="#portifolio"
           className="mt-5 flex cursor-pointer items-center space-x-5 p-2 pl-5 text-base font-bold shadow-lg duration-300 ease-in-out hover:text-zinc-400"
           onClick={() => setShowSidebar(!showSidebar)}
         >
           <p>Portifólio</p>
         </a>
-        {/* <div className='flex items-center justify-center gap-5 mt-16'>
-          <Link href='https://instagram.com/negociosdeesporte' target="blank" onClick={() => setShowSidebar(!showSidebar)} ><FontAwesomeIcon icon={faInstagram} className="h-7 text-vermelho hover:text-amarelo transition-all duration-300" /></Link>
-          <Link href='https://www.facebook.com/negociosdeesporte?mibextid=ZbWKwL' target="blank"onClick={() => setShowSidebar(!showSidebar)} > <FontAwesomeIcon icon={faFacebook} className="h-7 text-vermelho hover:text-amarelo transition-all duration-300" /></Link>
-          <Link href='https://twitter.com/NegocioEsportes' target="blank" onClick={() => setShowSidebar(!showSidebar)}> <FontAwesomeIcon icon={faTwitter} className="h-7 text-vermelho hover:text-amarelo transition-all duration-300" /></Link>
-          <Link href="https://wa.me/553599689766" target="blank" onClick={() => setShowSidebar(!showSidebar)}> <FontAwesomeIcon icon={faWhatsapp} className="h-7 text-vermelho hover:text-amarelo transition-all duration-300" /></Link>
-        </div>*/}
+        <div className='flex items-center justify-center gap-5 mt-8 mb-8'>
+          <Link href='' target="blank" onClick={() => setShowSidebar(!showSidebar)} ><FontAwesomeIcon icon={faInstagram} className="h-7 text-vermelho hover:text-amarelo transition-all duration-300" /></Link>
+          <Link href='' target="blank" onClick={() => setShowSidebar(!showSidebar)} ><FontAwesomeIcon icon={faGithub} className="h-7 text-vermelho hover:text-amarelo transition-all duration-300" /></Link>
+        </div>
+        <a href='' target='_blank' className="relative group flex justify-center items-center">
+          <button className='rounded-3xl text-white py-3 px-5 bg-azul hover:bg-gradient-to-r from-azul to-prata hover:px-12 clip  transition-all duration-500 hover:text-sky-950'>
+            
+            Entre em contato
+          </button>
+        </a>
       </div>
     </div>
   )
