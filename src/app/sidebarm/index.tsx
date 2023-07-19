@@ -26,7 +26,7 @@ export default function SideBarM() {
         className={`text-white  fixed right-0 top-0 z-40 flex h-full w-[70vw]  flex-col bg-slate-900 transition-all duration-1000 ease-in-out ${showSidebar ? 'translate-x-0 ' : 'translate-x-full'}`}
       >
         <button
-          className="fixed right-10 top-6 z-50 flex cursor-pointer items-center text-2xl text-vermelho"
+          className="fixed right-10 top-6 z-50 flex cursor-pointer items-center text-2xl"
           onClick={() => setShowSidebar(!showSidebar)}
         >
           x
@@ -60,12 +60,11 @@ export default function SideBarM() {
           <p>Portifólio</p>
         </a>
         <div className='flex items-center justify-center gap-5 mt-8 mb-8'>
-          <Link href='' target="blank" onClick={() => setShowSidebar(!showSidebar)} ><FontAwesomeIcon icon={faInstagram} className="h-7 text-vermelho hover:text-amarelo transition-all duration-300" /></Link>
-          <Link href='' target="blank" onClick={() => setShowSidebar(!showSidebar)} ><FontAwesomeIcon icon={faGithub} className="h-7 text-vermelho hover:text-amarelo transition-all duration-300" /></Link>
+          <Link href='https://instagram.com/rodrigo_menezes91?igshid=MzNlNGNkZWQ4Mg==' target="blank" onClick={() => setShowSidebar(!showSidebar)} ><FontAwesomeIcon icon={faInstagram} className="h-7 hover:text-amarelo transition-all duration-300" /></Link>
+          <Link href='' target="blank" onClick={() => setShowSidebar(!showSidebar)} ><FontAwesomeIcon icon={faGithub} className="h-7 hover:text-amarelo transition-all duration-300" /></Link>
         </div>
-        <a href='' target='_blank' className="relative group flex justify-center items-center">
+        <a href='https://wa.me/5535988253492' target='_blank' className="relative group flex justify-center items-center">
           <button className='rounded-3xl text-white py-3 px-5 bg-azul hover:bg-gradient-to-r from-azul to-prata hover:px-12 clip  transition-all duration-500 hover:text-sky-950'>
-            
             Entre em contato
           </button>
         </a>

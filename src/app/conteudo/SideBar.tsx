@@ -16,15 +16,15 @@ export default function SideBar() {
           Desenvolva a web do futuro com Next.js - Front-end mais rápido, poderoso e escalável!
         </p>
         <div className='flex gap-5 my-5'>
-          <Link href="">
+          <Link href="https://instagram.com/rodrigo_menezes91?igshid=MzNlNGNkZWQ4Mg==" target='_blank'>
             <FontAwesomeIcon icon={faInstagram} className="h-7 text-azul hover:text-prata hover:scale-125 transition-all duration-300" />
           </Link>
-          <Link href="">
+          <Link href="https://github.com/Rodrigo-Menezes" target='_blank'>
             <FontAwesomeIcon icon={faGithub} className="h-7 text-azul hover:text-prata hover:scale-125 transition-all duration-300" />
           </Link>
         </div>
 
-        <a href='' className="relative group">
+        <a href='https://wa.me/5535988253492' target='_blank' className="relative group">
           <button className='rounded-3xl text-white py-3 px-5 bg-azul hover:bg-gradient-to-r from-azul to-prata hover:px-12 clip  transition-all duration-500 hover:text-sky-950'>
               <FontAwesomeIcon icon={faWhatsapp} className="absolute right-2 top-1 h-0 group-hover:h-[80%] clip  transition-all duration-1000 ease-in-out"/>
             Entre em contato
