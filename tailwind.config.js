@@ -13,9 +13,11 @@ module.exports = {
         "bgfront":"url('/front.jpg')"
       },
       colors:{
-        azul:'#006CB9',
-        prata:' #ffffff',
-        azulescuro:'#000B49'
+        'azul':'#006CB9',
+        'prata':' #ffffff',
+        'azulescuro':'#000B49',
+        'gradient-start': '#006CB9',
+        'gradient-end': '#ffffff',
       },
       animation: {
         'pulse-fast': 'pulse 1s linear infinite',
