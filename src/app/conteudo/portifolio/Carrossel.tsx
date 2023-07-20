@@ -13,9 +13,9 @@ export default function Carrossel(): JSX.Element {
   };
 
   return (
-    <Slider  {...settings} className="w-72 md:w-[900px] h-80 bg-gray-950">
+    <Slider  {...settings} className="w-72 md:w-[900px] h-96">
       <div className="">
-        <div className="md:grid md:grid-cols-2 rounded-2xl h-80 w-72 md:w-[900px] bg-white bg-opacity-5">
+        <div className="md:grid md:grid-cols-2 rounded-2xl h-96 w-72 md:w-[900px] bg-slate-700 bg-opacity-5 ">
           <div></div>
           <div className="flex flex-col p-5 text-white gap-2 md:gap-10">
             <h2 className="">Site</h2>
@@ -29,7 +29,7 @@ export default function Carrossel(): JSX.Element {
         </div>
       </div>
       <div>
-        <div className=" rounded-2xl h-80 md:w-[500px] bg-white bg opacity-10">
+        <div className=" rounded-2xl h-80 md:w-[500px] bg-white bg opacity-5">
 
         </div>
         </div>

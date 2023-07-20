@@ -8,9 +8,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-         
         "bgux":"url('/uiux.jpg')",
-        "bgfront":"url('/front.jpg')"
+        "bgfront":"url('/front.jpg')",
       },
       colors:{
         'azul':'#006CB9 ',
@@ -36,6 +35,7 @@ module.exports = {
       boxShadow: {
         'custom': '5px 5px rgba(0, 108, 185, 0.4), 10px 10px rgba(0, 108, 185, 0.3), 15px 15px rgba(0, 108, 185, 0.2), 20px 20px rgba(0, 108, 185, 0.1), 25px 25px rgba(0, 108, 185, 0.05)',
       },
+
     },
   },
   plugins: [],

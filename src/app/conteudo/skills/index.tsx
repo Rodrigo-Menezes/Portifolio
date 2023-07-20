@@ -13,10 +13,10 @@ export default function Sobre() {
         <p className='text-sm'>Mais de 2 anos</p>
       </div>
       <div className='py-5 flex flex-col justify-center items-center'>
-        <FontAwesomeIcon icon={faReact} className=" h-20 text-blue-500 transition-all duration-300 animate-spin-slow" />
+        <FontAwesomeIcon icon={faReact} className=" h-44 text-blue-500 transition-all duration-300 animate-spin-slow" />
         <h2 className='text-white'>React.js</h2>
       </div>
-      <div className='flex flex-wrap justify-center gap-10 px-3'>
+      <div className='flex flex-wrap justify-center gap-10 md:gap-20 mt-20 px-3'>
         <div className='pt-2 flex flex-col items-center px-2 py-2 rounded-xl shadow-custom'>
           <FontAwesomeIcon icon={faHtml5} className="h-10 text-orange-500" />
           <h2 className='text-white'>HTML</h2>
